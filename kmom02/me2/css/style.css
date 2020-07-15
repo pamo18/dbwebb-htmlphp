@@ -1,0 +1,217 @@
+html {
+    background-color: #282828;
+    overflow-y: scroll;
+}
+
+.site-header {
+    background-color: #fff;
+    overflow: auto; /* clear fix to make div span all elements */
+    font-family: Helvetica;
+}
+
+.site-header img {
+    float: left;
+}
+
+.site-title {
+    display: block;
+    padding-top: 1em;
+    padding-left: 50px;
+    font-size: 2.5em;
+    overflow: auto;
+}
+
+.site-slogan {
+    display: block;
+    padding-left: 50px;
+    font-style: italic;
+    overflow: auto;
+}
+
+.logo {
+    width: 120px;
+    padding: 1em;
+    border-radius: 40px;
+}
+
+.navbar {
+    text-align: center;
+    padding: 0.5em;
+    border-top: 1px solid black;
+}
+
+.navbar .selected {
+    color: white;
+    background-color: #282828;
+}
+
+.navbar a {
+    width: 5em;
+    font-size: 1.2em;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: #eee;
+    color: black;
+}
+
+.navbar a:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+body {
+    margin: 8px auto;
+    padding: 8px;
+    width: 980px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+main {
+    min-height: 63em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+article {
+    font-family: Helvetica;
+    font-size: 1.1em;
+}
+
+.me {
+    width: 35%;
+    border-radius: 20px;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    padding-right: 0.5em;
+    float: right;
+}
+
+.Manchester {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.backdrop {
+    text-align: right;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.me-tag {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    height: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+}
+
+.me-tag img {
+    float: left;
+}
+
+.me-tag p {
+    margin-top: 4px;
+    padding-left: 0.5em;
+    float: left;
+    max-width: 150px;
+    font-style: italic;
+    font-size: 0.9em;
+    color: grey;
+    text-align: left;
+}
+
+#site-footer .me-tag a {
+    color: black;
+}
+
+#site-footer .me-tag a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#site-footer {
+    text-align: center;
+}
+
+#site-footer a {
+    text-decoration: none;
+    padding-right: 2px;
+}
+
+#site-footer a:hover {
+    text-decoration: underline;
+}
+
+.stats {
+    font-size: 0.8em;
+}
+
+@media (max-width: 980px) {
+    body {
+        width: auto;
+    }
+
+    .me {
+        width: 45%;
+    }
+}
+
+@media (max-width: 780px) {
+    .site-title {
+        font-size: 2em;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    .me {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .site-title {
+        padding-left: 10px;
+        font-size: 1.5em;
+    }
+
+    .site-slogan {
+        padding-left: 10px;
+    }
+
+    .me {
+        width: 60%;
+        left: 20%;
+    }
+}
+
+@media (max-width: 500px) {
+    .site-title {
+        padding-top: 1em;
+        font-size: 1.3em;
+    }
+
+    .logo {
+        width: 15%;
+    }
+
+    .me {
+        width: 70%;
+        left: 15%;
+    }
+
+    .navbar a {
+        width: 4.7em;
+        font-size: 1em;
+    }
+}

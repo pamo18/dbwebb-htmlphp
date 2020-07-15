@@ -1,0 +1,108 @@
+/**
+ * Style the navbar
+ */
+.navbar .selected {
+    background-color: #ccc;
+}
+
+
+
+/**
+ * Use border-box to inlude padding and border in item width.
+ */
+* {
+    box-sizing: border-box;
+}
+
+/**
+ * multipage style
+ */
+
+body {
+    position: relative;
+    left: 5%;
+    background-color: #690b0b;
+    display: block;
+}
+
+.wrap-main {
+    overflow: auto;
+}
+
+main {
+    width: 90%;
+    background-color: black;
+    color: white;
+    min-height: 67em;
+    border: 10px solid white;
+}
+
+article {
+    text-align: center;
+    padding-left: 1em;
+    padding-bottom: 2em;
+}
+
+pre {
+    white-space: pre-wrap;
+    text-align: left;
+}
+
+a {
+    color: #5c7eda;
+}
+
+aside {
+    width: 90%;
+    background-color: hsl(206, 100%, 86%);
+    border: 10px solid blue;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+
+li a:hover {
+    color: #0a1d51;
+}
+
+table {
+    position: relative;
+    left: 12.5%;
+    text-align: center;
+    width: 75%;
+    border: 1px solid #666;
+}
+
+th {
+    background-color: #999;
+}
+
+tr:hover {
+    color: black;
+    background-color: white;
+}
+
+input[type=search] {
+    width: 30em;
+}
+
+.sitefooter {
+    width: 90%;
+    float: clear-both;
+    text-align: center;
+    border: 10px solid white;
+    background-color: blue;
+    color: white;
+}
+
+h1 {
+    border-bottom: 1px solid #999;
+    margin-bottom: 5em;
+}

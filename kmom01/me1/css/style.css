@@ -1,0 +1,117 @@
+html {
+    background-color: #282828;
+    padding-top: 1em;
+}
+
+.logo {
+    padding: 1em;
+    border-radius: 40px;
+}
+
+.me {
+    position: relative;
+    left: 25%;
+    width: 50%;
+}
+
+body {
+    margin: 8px auto;
+    padding: 8px;
+    width: 980px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.site-header {
+    background-color: #fff;
+    overflow: auto; /* clear fix to make div span all elements */
+    font-family: Helvetica;
+}
+
+.site-header img {
+    float: left;
+}
+
+#site-footer {
+    padding-left: 1em;
+}
+
+#site-footer a {
+    text-decoration: none;
+    padding-left: 0.5em;
+}
+
+#site-footer a:hover {
+    text-decoration: underline;
+}
+
+.site-title {
+    display: block;
+    padding-top: 1em;
+    padding-left: 50px;
+    font-size: 40px;
+    overflow: auto;
+}
+
+.site-slogan {
+    display: block;
+    padding-left: 50px;
+    font-style: italic;
+    overflow: auto;
+}
+
+.navbar {
+    padding: 1em;
+    background-color: #fff;
+    border-top: 1px solid black;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid black;
+    text-decoration: none;
+    color: blue;
+}
+
+.navbar a:hover {
+    background-color: #eee;
+    text-decoration: underline;
+}
+
+.me-tag {
+    margin-top: 0.5em;
+    display: inline-block;
+    padding: 1em;
+    height: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+}
+
+.me-tag img {
+    float: left;
+}
+
+.me-tag p {
+    margin: 0;
+    padding-left: 0.5em;
+    float: left;
+    max-width: 175px;
+    font-style: italic;
+}
+
+.me-tag a {
+    text-decoration: none;
+    color: blue;
+}
+
+.me-tag a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1em;
+    font-family: Helvetica;
+    font-size: 1.1em;
+}

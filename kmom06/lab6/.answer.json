@@ -1,0 +1,49 @@
+{
+    "details": "Generated for pamo18 at 2018-10-10 14:56:46.",
+    "key": "f2cf62c6c9e72f9eb4489068da52789e",
+    "summary": {
+        "questions": 8,
+        "points": 10,
+        "pass": 7,
+        "passdistinct": 10
+    },
+    "points": {
+        "1.1": 1,
+        "1.2": 1,
+        "1.3": 1,
+        "1.4": 1,
+        "1.5": 1,
+        "1.6": 1,
+        "1.7": 1,
+        "2.1": 3
+    },
+    "answers": {
+        "1.1": [
+            "Orlando",
+            "Emilia"
+        ],
+        "1.2": "Sean Connery",
+        "1.3": 3898,
+        "1.4": 15,
+        "1.5": "Sweden",
+        "1.6": 1953,
+        "1.7": "New York City",
+        "2.1": [
+            "Aniston Jennifer",
+            "Blanchett Cate",
+            "Bloom Orlando",
+            "Cage Nicolas",
+            "Carrey Jim",
+            "Clarke Emilia",
+            "Connery Sean",
+            "De Niro Robert",
+            "Depp Johnny",
+            "Garbo Greta",
+            "Hanks Tom",
+            "Hepburn Audrey",
+            "Johansson Scarlett",
+            "Loren Sophia",
+            "Nicholson Jack"
+        ]
+    }
+}

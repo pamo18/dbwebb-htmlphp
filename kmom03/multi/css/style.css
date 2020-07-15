@@ -1,0 +1,73 @@
+/**
+ * Style the navbar
+ */
+.navbar .selected {
+    background-color: #ccc;
+}
+
+/**
+* Navbar styling
+*/
+.multipage a {
+    text-decoration: none;
+}
+
+.multipage .selected {
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+
+/**
+ * Use border-box to inlude padding and border in item width.
+ */
+* {
+    box-sizing: border-box;
+}
+
+
+
+/**
+ * Style for page controller multipage
+ */
+.wrap-main {
+    background-color: hsl(160, 100%, 86%);
+    overflow: auto;
+    border: 10px solid hsl(160, 100%, 76%);
+}
+
+main {
+    width: 70%;
+    float: left;
+    background-color: hsl(233, 100%, 86%);
+    min-height: 20em;
+    border: 10px solid hsl(233, 100%, 76%);
+}
+
+article {
+    padding-left: 1em;
+    padding-bottom: 2em;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+aside {
+    width: 30%;
+    float: left;
+    background-color: hsl(20, 100%, 86%);
+    border: 10px solid hsl(20, 100%, 76%);
+}
+
+.sitefooter {
+    float: clear-both;
+    text-align: center;
+    border: 10px solid black;
+    background-color: grey;
+    color: #eee;
+}
+
+h1 {
+    border-bottom: 1px solid #999;
+}
